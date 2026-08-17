@@ -50,9 +50,9 @@ jobs:
       #
 
       # Extract the secret and write it to the file.
-      -
-        name: Prepare creds_file
-        run: printf '%s' '${{secrets.CREDS_JSON}}' > creds.json
+      #-
+      #  name: Prepare creds_file
+      #  run: printf '%s' '${{secrets.CREDS_JSON}}' > creds.json
 
       #
       # Method 2: Dynamic creds.json file
