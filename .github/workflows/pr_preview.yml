@@ -20,10 +20,10 @@ permissions:
 
 # If you are using Method 3 (see below), this is where you will
 # set your env variables.
-# env:
-#    MYCF_ACCOUNTID: "${{ secrets.MYCF_ACCOUNTID }}"
-#    MYCF_TOKEN: "${{ secrets.MYCF_TOKEN }}"
-#
+env:
+  GANDI_MAIN_SHARING_ID: "${{ secrets.GANDI_MAIN_SHARING_ID }}"
+  GANDI_MAIN_TOKEN: "${{ secrets.GANDI_MAIN_TOKEN }}"
+
   
 jobs:
   preview:
@@ -33,6 +33,8 @@ jobs:
       -
         name: Checkout repo
         uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 # v4.3.0
+        with:
+          persist-credentials: false
 
 #
 # Method 1: creds.json stored as a secret
@@ -44,13 +46,12 @@ jobs:
 # Settings -> Secrets and variables -> Actions
 # i.e. https://github.com/YOUR_ORG/REPO_NAME/settings/secrets/actions
 #
-
-      -
-        # Extract the secret and write it to the file.
-        name: Prepare creds_file
-        run: printf '%s' '${{secrets.CREDS_JSON}}' > creds.json
-
 #
+#      -
+#        # Extract the secret and write it to the file.
+#        name: Prepare creds_file
+#        run: printf '%s' '${{secrets.CREDS_JSON}}' > creds.json
+
 # Method 2: Dynamic creds.json file
 #
 # Store the individual credentials as github secrets, and dynamically generate
