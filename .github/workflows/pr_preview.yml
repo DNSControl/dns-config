@@ -97,7 +97,7 @@ jobs:
 # secrets mentioned in your creds.json file.
 
       -
-        name: call dnscontrol action
+        name: dnscontrol preview
         uses: DNSControl/dnscontrol-action@f227f6014445e9a45ca0e75d80296a4c7f796884
         with:
           cmdargs: preview
