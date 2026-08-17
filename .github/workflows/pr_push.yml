@@ -21,11 +21,11 @@ permissions:
   pull-requests: write
 
 # If you are using Method 3 (see below), this is where you will
-# set your env variables.
-# env:
-#    MYCF_ACCOUNTID: "${{ secrets.MYCF_ACCOUNTID }}"
-#    MYCF_TOKEN: "${{ secrets.MYCF_TOKEN }}"
-#
+# set your env variables. Add one line here for each env variable
+# mentioned in creds.json.
+env:
+  GANDI_MAIN_SHARING_ID: "${{ secrets.GANDI_MAIN_SHARING_ID }}"
+  GANDI_MAIN_TOKEN: "${{ secrets.GANDI_MAIN_TOKEN }}"
 
 jobs:
   push:
