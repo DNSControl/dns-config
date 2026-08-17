@@ -16,6 +16,4 @@ D("best-spaghetti-sauce-ever.com", REG_GANDI_TAL,
     MX("@", 1, "jj2.whatexit.org."),
 
     CNAME("www", "@"),
-
-    TXT("test", "This is a test."),
 );
