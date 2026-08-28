@@ -98,7 +98,7 @@ jobs:
 
       -
         name: dnscontrol preview
-        uses: DNSControl/dnscontrol-action@fa49fa41aa378803dbd25dc49a1f580f0dcacfe7
+        uses: DNSControl/dnscontrol-action@v1.1.1
         with:
           cmdargs: preview
           post_pr_comment: true
