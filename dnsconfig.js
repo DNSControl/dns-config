@@ -20,12 +20,11 @@ var GOOGLE_WORKPLACE_MX = [MX("@", 1, "smtp.google.com.", TTL("7d"))];
 // Domains:
 
 D(
-    // The domain, the registrar, and DNS Provider(s):
-    "best-spaghetti-sauce-ever.com",
-    REG_GANDI_MAIN,
-    DnsProvider(DSP_GANDI_MAIN),
+    "best-spaghetti-sauce-ever.com", // Domain or zone
+    REG_GANDI_MAIN, // Registrar
+    DnsProvider(DSP_GANDI_MAIN), // DNS Service
 
-    // DNS Records:
+    // Records:
 
     A("@", "142.93.29.52"),
     AAAA("@", "2604:a880:2:d1:0:1:2907:8001"),
