@@ -41,4 +41,5 @@ D(
 
     // demo
     CNAME("test", "@"),
+    CNAME("test2", "@"),
 );
