@@ -1,7 +1,7 @@
 {
-  "gandi_main": {
-    "TYPE": "GANDI_V5",
-    "sharing_id": "$GANDI_MAIN_SHARING_ID",
-    "token": "$GANDI_MAIN_TOKEN"
-  }
+    "gandi_main": {
+        "TYPE": "GANDI_V5",
+        "sharing_id": "$GANDI_MAIN_SHARING_ID",
+        "token": "$GANDI_MAIN_TOKEN"
+    }
 }

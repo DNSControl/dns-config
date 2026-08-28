@@ -7,6 +7,9 @@
 # env file
 .env
 
+# Hints for your editor
+types-dnscontrol.d.ts
+
 # Editor/IDE
 .idea/
 .vscode/
