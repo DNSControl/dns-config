@@ -101,7 +101,7 @@ jobs:
 
       -
         name: dnscontrol push
-        uses: DNSControl/dnscontrol-action@v1.1.1
+        uses: DNSControl/dnscontrol-action@71de21213d6a5792e960a03b5b3d61f8530596b8
         with:
           cmdargs: push
           post_pr_comment: true
