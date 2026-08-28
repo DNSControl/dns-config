@@ -39,4 +39,7 @@ D(
     }),
 
     CNAME("www", "@"),
+
+    // demo
+    CNAME("test", "@"),
 );
