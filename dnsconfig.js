@@ -43,5 +43,5 @@ D(
     CNAME("test", "@"),
     CNAME("test2", "@"),
 
-    MX("foo", 20, "cbest-spaghetti-sauce-ever.com")
+    MX("foo", 20, "best-spaghetti-sauce-ever.com.")
 );
