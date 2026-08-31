@@ -40,10 +40,9 @@ D(
     CNAME("www", "@"),
 
     // demo
-    CNAME("test", "@"),
-    CNAME("test2", "@"),
-    A("ip1", IP("135.181.247.240")),
-    A("ip2", IP("135.181.247.240")),
-
-    MX("foo", 20, "best-spaghetti-sauce-ever.com.")
+    //CNAME("test", "@"),
+    //CNAME("test2", "@"),
+    //A("ip1", IP("135.181.247.240")),
+    //A("ip2", IP("135.181.247.240")),
+    //MX("foo", 20, "best-spaghetti-sauce-ever.com.")
 );
