@@ -44,7 +44,7 @@ jobs:
       # This code will read the GitHub secret named CREDS_JSON and stuff it into the
       # file creds.json.
       #
-      # Step 1: Store the entire creds.json file as a github secret named CREDS_JSON.
+      # Step 1: Store the entire creds.json file as a GitHub secret named CREDS_JSON.
       # Settings -> Secrets and variables -> Actions
       # i.e. https://github.com/YOUR_ORG/REPO_NAME/settings/secrets/actions
       #
@@ -57,7 +57,7 @@ jobs:
       #
       # Method 2: Dynamic creds.json file
       #
-      # Store the individual credentials as github secrets, and dynamically generate
+      # Store the individual credentials as GitHub secrets, and dynamically generate
       # the creds.json file that uses them.
       #
       # Step 1: Store each secret in Settings -> Secrets and variables -> Actions
