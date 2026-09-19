@@ -40,7 +40,7 @@ vi dnsconfig.js
 gh pr create --title "chore(www): What I did" --body ""
 ```
 
-Step 4: Review and approve.
+**Step 4: Review and approve**
 
 At this point, the Github Actions will kick in, validating your change and
 posting a "diff" as a comment. Seeing the "diff" allows you to verify that the
