@@ -39,7 +39,7 @@ jobs:
 #
 # Method 1: creds.json stored as a secret
 #
-# This code will read the gihub secret named CREDS_JSON and stuff it into the
+# This code will read the GitHub secret named CREDS_JSON and stuff it into the
 # file creds.json.
 #
 # Step 1: Store the entire creds.json file as a github secret named CREDS_JSON.
